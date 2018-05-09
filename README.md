@@ -97,7 +97,17 @@ The results on the CPUs use a single thread. For n threads with independent reso
 ## Further information and recompilation
 
 Further informations about the optimizations used in this implementation can be found in the paper [High Performance and Low Power Monte Carlo Methods to Option Pricing Models via High Level Design and Synthesis](http://ieeexplore.ieee.org/abstract/document/7920245/).
+If you find this work useful for your research, please consider citing:
 
+    @INPROCEEDINGS{7920245, 
+      author={L. Ma and F. B. Muslim and L. Lavagno}, 
+      booktitle={2016 European Modelling Symposium (EMS)}, 
+      title={High Performance and Low Power Monte Carlo Methods to Option Pricing Models via High Level Design and Synthesis}, 
+      year={2016},
+      pages={157-162}, 
+      doi={10.1109/EMS.2016.036}, 
+      month={Nov},}
+      
 In all cases, the enclosed Makefile can be used to compile the models. For example:
   ```
   cd blackScholes_model/europeanOption
